@@ -74,7 +74,7 @@ window.addEventListener('load', () => {
 	let X = 1000
 	setClock()
 	//let iter = setInterval(animate, X)
-	setInterval(setClock, 50)
+	setInterval(setClock, 1000)
 })
 let data =
 	'https://w7.pngwing.com/pngs/449/884/png-transparent-clock-face-digital-clock-time-clock-angle-white-monochrome-thumbnail.png'
