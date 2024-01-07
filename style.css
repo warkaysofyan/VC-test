@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fira Code', monospace;
+}
 body {
-	background-color: #bba;
+	background-color: #f9f7c9;
 	height: 100vh;
 	width: 100%;
 	display: flex;
@@ -11,10 +18,31 @@ body {
 	background-color: transparent;
 	height: 600px;
 	width: 600px;
+	background-color: #aad9bb;
 }
 .cvs {
 	border-radius: 50%;
 }
-.add {
-	background-color: red;
+
+.heads ul {
+	height: 40px;
+	display: flex;
+	list-style-type: none;
+}
+.heads > ul > li {
+	display: flex;
+	-webkit-box-shadow: 4px -3px 2px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 4px -3px 2px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 4px -1px 2px 0px rgba(0, 0, 0, 0.75);
+	margin-right: 3px;
+	align-items: center;
+	opacity: 0.5;
+	border-radius: 10px 10px 0 0;
+	background-color: #d5f0c1;
+}
+
+.heads > ul > .active {
+	opacity: 1;
+
+	background-color: #aad9bb;
 }
